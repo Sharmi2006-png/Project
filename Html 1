@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Siva Karthikeyan</title>
+</head>
+<body>
+    <center>
+        <h1>Siva Karthikeyan</h1>
+        <h3>Actor | Director | Singer |Writer |Producer</h3>
+        <img src="siva2.jfif" width="300px">
+        <hr>
+        <p>Sivakarthikeyan Doss was born on 17 February 1985 to a Telugu family in Singampunari, Sivagangai district, he grew up in a family with a public service legacy. His father, G. Doss, was a jail superintendent,[4] and his mother, Raji Doss, is a homemaker. Sivakarthikeyan has an elder sister. He completed schooling at Campion Anglo-Indian Higher Secondary School, Tiruchirappalli. He went on to earn a Bachelor’s degree in Computer Science Engineering from JJ College of Engineering, followed by an MBA from a Chennai institution.[5] Sivakarthikeyan married Aarthi on 27 August 2010.[6] The couple have three children, Aardhana, Gugan and Pavan.[7][8][9]</p>
+        <hr>
+        <h2>Favorite Movies</h2>
+        <a href="https://www.youtube.com/watch?v=VdhOkL7a8VA" >Don  |</a> <a href="https://www.youtube.com/watch?v=MNvnTehw90o">Doctor |</a> <a href="https://www.youtube.com/watch?v=zBI5UfY-nn4">Remo</a>
+    <hr>
+    <h2>Youtube Video</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/wXD1oTF6Cm4?si=VV7xZyPwatukaNdC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    
+    </center>
+    
+</body>
+</html>
