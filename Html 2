@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Register for a course</title>
+</head>
+<body>
+    <center>
+    <h1>Error Makes Clever Academy 🚀 </h1>
+    <h5></h5>Training |tech News |Freshers Guide</h5>
+    <p>Empowering young developers to level up their skills through corporate Training  </p>
+    </center>
+    <hr>
+    <center>
+        <h1>Registration Form</h1>
+        <form>
+            <table>
+                
+                <tr>
+                    <td>Name:</td>   <td><input type="text" placeholder="Enter Your Name"></td>
+                </tr>
+                <tr>
+                    <td>Age:</td>   <td><input type="number" placeholder="Enter Your Age"></td>
+                </tr>
+                <tr>
+                    <td>Gender:</td>   <td><input type="radio"name="Gender">Male
+                        <input type="radio" name="Gender">Female</td>
+                </tr>
+                <tr>
+                    <td>Email:</td>   <td><input type="email" placeholder="Enter Your Email"></td>
+                </tr>
+                <tr>
+
+                    <td>Select a Course</td>
+                    <td>
+                        <select>
+                            <option>Python</option>
+                            <option>Java</option>
+                             <option>C++</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Upload Your resume</td>
+                    <td>
+                        <input type="file">
+                    </td>
+                </tr>
+                <tr>
+                    <td> <input type="reset"></td>
+                    <td> <input type="submit"></td>
+                </tr>
+                 
+            </table>
+        </form>
+    </center>
+    <hr>
+     <p>
+        <center>
+        <a href="index.html">Home</a> <a href="https://www.instagram.com/errormakesclever/?hl=en">Instagram</a><a href="https://www.youtube.com/@ErrorMakesClever">Youtube</a>    
+    </center>
+</p>
+</body>
+</html>
