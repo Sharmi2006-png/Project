@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Ocean Birthday Surprise 🌊</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- OPENING SONG -->
+
+    <audio id="openingSong" loop>
+        <source src="song4.mp3" type="audio/mp3">
+    </audio>
+
+    <!-- PHOTO SONGS -->
+
+    <audio id="song1">
+        <source src="song1.mp3" type="audio/mp3">
+    </audio>
+
+    <audio id="song2">
+        <source src="song2.mp3" type="audio/mp3">
+    </audio>
+
+    <audio id="song3">
+        <source src="song3.mp3" type="audio/mp3">
+    </audio>
+
+    <!-- BUBBLES -->
+
+    <div class="bubbles">
+
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+
+    </div>
+
+    <!-- PAGE 1 -->
+
+    <section class="page active" id="page1">
+
+        <div class="overlay"></div>
+
+        <div class="content">
+
+            <h1>Happy Birthday Iniya💙</h1>
+
+            <p>
+                Welcome to your ocean of memories 🌊
+            </p>
+
+            <button onclick="nextPage(2)">
+                Start Journey ✨
+            </button>
+
+        </div>
+
+    </section>
+
+    <!-- PAGE 2 -->
+
+    <section class="page" id="page2">
+
+        <div class="overlay"></div>
+
+        <div class="content">
+
+            <img src="photo1.png">
+
+            <h2>Some memories never fade 💖</h2>
+
+            <button onclick="nextPage(3)">
+                Next ➜
+            </button>
+
+        </div>
+
+    </section>
+
+    <!-- PAGE 3 -->
+
+    <section class="page" id="page3">
+
+        <div class="overlay"></div>
+
+        <div class="content">
+
+            <img src="photo2.png">
+
+            <h2>You are my safe place 🌊</h2>
+
+            <button onclick="nextPage(4)">
+                Next ➜
+            </button>
+
+        </div>
+
+    </section>
+
+    <!-- PAGE 4 -->
+
+    <section class="page" id="page4">
+
+        <div class="overlay"></div>
+
+        <div class="content">
+
+            <img src="photo3.png">
+
+            <h2>Forever my favourite person 💙</h2>
+
+            <button onclick="nextPage(5)">
+                Next ➜
+            </button>
+
+        </div>
+
+    </section>
+
+    <!-- VIDEO PAGE -->
+
+    <section class="page" id="page5">
+
+        <div class="overlay"></div>
+
+        <div class="content">
+
+            <h1>Special Video 🎥</h1>
+
+            <video controls>
+
+                <source src="video1.mp4" type="video/mp4">
+
+            </video>
+
+            <button onclick="nextPage(6)">
+                Open Secret Message 💌
+            </button>
+
+        </div>
+
+    </section>
+
+    <!-- FINAL PAGE -->
+
+    <section class="page" id="page6">
+
+        <div class="overlay"></div>
+
+        <div class="content">
+
+            <h1 class="glow">
+                To My Favourite Human 💖
+            </h1>
+
+            <p class="message">
+
+                Hi Iniya!! 💖✨
+
+Actually idha nee padikkum bodhu unakku sirippu varum 😄. But nee inga ellarvidavum romba special. 🌸
+
+Enakkey therla eppo unkooda ivlo attach aanen, but nee enna inspire pannirukka ✨. Unna romba naan admire pannirukan 💕, unna maari irukkanumnu neraya time thonum… Avlo kind person nee theriyuma!! 🥹💫
+
+Enakkunu illa, nee pazhagura ellarkumey unna pudikkum 💖 because your true soul. 🌷
+
+Enakku escalator kuda yera theriyadhu 😭, needhan solli kudutha 🤍. Enakku romba kovam varum, adhaiyum unnaladhan konjam maathirukkan 🌈. Enakku suthama makeup sense kooda kedaiyadhu 😂, adhaiyum needhan solli kudutha 💄✨.
+
+Unnapathi solla oru naaley pathathu… 🥺
+Unmaiyavey en lifela meet panna oru best person nee 💕. Unna miss pannidavey koodadhu Iniya… ❤️✨
+
+Once again, Iniyavukku iniya pirandhanaal vaazhthukal 🎂🎉💖 🌊💙
+                                       -By Sharmi
+
+            </p>
+
+        </div>
+
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

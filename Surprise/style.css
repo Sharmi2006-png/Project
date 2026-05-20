@@ -1,0 +1,433 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&family=Great+Vibes&display=swap');
+
+*{
+
+    margin:0;
+
+    padding:0;
+
+    box-sizing:border-box;
+
+    font-family:'Poppins', sans-serif;
+}
+
+body{
+
+    overflow:hidden;
+
+    background:#021224;
+
+    color:white;
+}
+
+/* PAGE */
+
+.page{
+
+    width:100%;
+
+    height:100vh;
+
+    position:absolute;
+
+    top:0;
+
+    left:0;
+
+    display:none;
+
+    justify-content:center;
+
+    align-items:center;
+
+    text-align:center;
+
+    overflow:hidden;
+
+    background:
+    linear-gradient(
+    rgba(0,20,40,0.5),
+    rgba(0,40,80,0.8)),
+
+    url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e');
+
+    background-size:cover;
+
+    background-position:center;
+
+    animation:zoom 20s infinite alternate;
+}
+
+.active{
+
+    display:flex;
+
+    animation:fade 1.5s;
+}
+
+/* DARK OVERLAY */
+
+.overlay{
+
+    position:absolute;
+
+    width:100%;
+
+    height:100%;
+
+    background:rgba(0,0,0,0.3);
+}
+
+/* CONTENT */
+
+.content{
+
+    position:relative;
+
+    z-index:10;
+
+    padding:20px;
+}
+
+/* TEXT */
+
+h1{
+
+    font-size:4rem;
+
+    margin-bottom:20px;
+
+    text-shadow:0 0 20px #00bfff;
+}
+
+h2{
+
+    margin-top:20px;
+
+    margin-bottom:20px;
+
+    text-shadow:0 0 15px #87cefa;
+}
+
+p{
+
+    font-size:1.2rem;
+
+    line-height:2;
+}
+
+/* GLOW EFFECT */
+
+.glow{
+
+    animation:glow 2s infinite alternate;
+}
+
+@keyframes glow{
+
+    from{
+
+        text-shadow:0 0 10px #00bfff;
+    }
+
+    to{
+
+        text-shadow:
+        0 0 20px #00bfff,
+        0 0 40px #1e90ff,
+        0 0 60px #87cefa;
+    }
+}
+
+/* IMAGES */
+
+img{
+
+    width:320px;
+
+    border-radius:25px;
+
+    box-shadow:
+    0 10px 30px rgba(0,0,0,0.5),
+    0 0 20px rgba(0,191,255,0.6);
+
+    transition:0.5s;
+}
+
+img:hover{
+
+    transform:scale(1.05);
+}
+
+/* VIDEO */
+
+video{
+
+    width:350px;
+
+    border-radius:25px;
+
+    margin-top:20px;
+
+    box-shadow:
+    0 0 30px rgba(0,191,255,0.5);
+}
+
+/* BUTTON */
+
+button{
+
+    margin-top:30px;
+
+    padding:15px 35px;
+
+    border:none;
+
+    border-radius:50px;
+
+    background:rgba(0,191,255,0.2);
+
+    backdrop-filter:blur(10px);
+
+    color:white;
+
+    font-size:1rem;
+
+    cursor:pointer;
+
+    transition:0.4s;
+
+    box-shadow:0 0 20px rgba(0,191,255,0.5);
+}
+
+button:hover{
+
+    transform:scale(1.1);
+
+    background:#00bfff;
+}
+
+/* MESSAGE */
+
+.message{
+
+    max-width:700px;
+
+    margin:auto;
+}
+
+/* BUBBLES */
+
+.bubbles{
+
+    position:absolute;
+
+    width:100%;
+
+    height:100%;
+
+    overflow:hidden;
+
+    z-index:1;
+}
+
+.bubbles span{
+
+    position:absolute;
+
+    bottom:-100px;
+
+    width:30px;
+
+    height:30px;
+
+    background:rgba(255,255,255,0.2);
+
+    border-radius:50%;
+
+    animation:bubble 15s linear infinite;
+}
+
+.bubbles span:nth-child(1){
+
+    left:10%;
+    width:20px;
+    height:20px;
+    animation-duration:8s;
+}
+
+.bubbles span:nth-child(2){
+
+    left:20%;
+    animation-duration:12s;
+}
+
+.bubbles span:nth-child(3){
+
+    left:35%;
+    width:15px;
+    height:15px;
+    animation-duration:10s;
+}
+
+.bubbles span:nth-child(4){
+
+    left:50%;
+    animation-duration:14s;
+}
+
+.bubbles span:nth-child(5){
+
+    left:65%;
+    width:25px;
+    height:25px;
+    animation-duration:11s;
+}
+
+.bubbles span:nth-child(6){
+
+    left:75%;
+    animation-duration:16s;
+}
+
+.bubbles span:nth-child(7){
+
+    left:85%;
+    width:18px;
+    height:18px;
+    animation-duration:9s;
+}
+
+.bubbles span:nth-child(8){
+
+    left:95%;
+    animation-duration:13s;
+}
+
+@keyframes bubble{
+
+    0%{
+
+        transform:translateY(0);
+        opacity:0;
+    }
+
+    50%{
+
+        opacity:1;
+    }
+
+    100%{
+
+        transform:translateY(-120vh);
+        opacity:0;
+    }
+}
+
+/* FADE */
+
+@keyframes fade{
+
+    from{
+
+        opacity:0;
+    }
+
+    to{
+
+        opacity:1;
+    }
+}
+
+/* SLOW ZOOM */
+
+@keyframes zoom{
+
+    from{
+
+        background-size:100%;
+    }
+
+    to{
+
+        background-size:120%;
+    }
+}
+
+/* FINAL MESSAGE SPECIAL FONT */
+
+#page6 h1{
+
+    font-family:'Great Vibes', cursive;
+
+    font-size:5rem;
+
+    color:#ffffff;
+
+    text-shadow:
+    0 0 10px #00bfff,
+    0 0 20px #1e90ff,
+    0 0 40px #87cefa;
+}
+
+#page6 .message{
+
+    font-family:'Poppins', sans-serif;
+
+    font-size:1.3rem;
+
+    line-height:2.2;
+
+    letter-spacing:1px;
+
+    color:#e0f7ff;
+
+    text-shadow:0 0 10px rgba(255,255,255,0.3);
+
+    animation:fadeMessage 3s ease;
+}
+
+/* SOFT MESSAGE FADE */
+
+@keyframes fadeMessage{
+
+    from{
+
+        opacity:0;
+
+        transform:translateY(40px);
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:translateY(0);
+    }
+}
+
+/* MOBILE */
+
+@media(max-width:768px){
+
+    h1{
+
+        font-size:2.5rem;
+    }
+
+    img,
+    video{
+
+        width:90%;
+    }
+
+    p{
+
+        font-size:1rem;
+    }
+
+    #page6 h1{
+
+        font-size:3.5rem;
+    }
+}
